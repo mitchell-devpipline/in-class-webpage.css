@@ -23,9 +23,9 @@
 /* ABOUT */
 
 .about-wrapper {
-  max-width: 980px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
   padding: 60px 0;
 }
@@ -113,14 +113,20 @@
   gap: 15px;
   cursor: pointer;
   transition: 0.1s ease-in-out all;
+  width: 100%;
 }
 
 .portfolio-items-grid > .portfolio-image-wrapper,
-.portfolio-items-grid {
+.portfolio-items-grid img {
+  transition: 0.1s ease-in-out all;
   max-height: 100%;
   max-width: 100%;
 }
 
 .portfolio-items-grid > .portfolio-image-wrapper {
   filter: opacity(0.5);
+}
+
+.portfolio-image-wrapper > img {
+  width: 10%;
 }
