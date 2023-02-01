@@ -1,0 +1,51 @@
+html,
+body {
+  height: auto;
+  width: 99.5vw;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60px;
+  background: black;
+}
+
+.left-nav {
+  display: flex;
+}
+
+.htmlbutton {
+  border: 1px solid lightgrey;
+  padding: 2px;
+  border-radius: 10%;
+}
+
+.center-nav {
+  display: flex;
+  border: 1px solid lightgrey;
+  padding: 2px;
+  border-radius: 10%;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+}
+
+i {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+/* .item {
+  border: 1px solid blue;
+  height: 100px;
+  width: 100px;
+} */
